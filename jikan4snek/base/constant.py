@@ -4,8 +4,8 @@ import time
 import logging
 from jikan4snek import __version__
 from aiohttp_client_cache import CachedSession
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s | %(levelname)s | %(funcName)s:%(module)s | %(message)s')
+#logging.basicConfig(level=logging.INFO,
+#                    format='%(asctime)s | %(levelname)s | %(funcName)s:%(module)s | %(message)s')
 
 
 class Api:
